@@ -16,13 +16,17 @@ If you installed an earlier release, the renamed marketplace and plugin may appe
 
 ## Claude Desktop
 
+To upload the plugin directly, select [UNR Assistant plugin ZIP](dist/unr-assistant-plugin.zip) under **Customize → Plugins → Upload plugin**. This archive includes the plugin manifest, skill, and UNR Knowledge connector.
+
+To install from the GitHub marketplace instead:
+
 1. Open **Customize → Plugins → Add → Add marketplace**.
 2. Enter `https://github.com/BriComGap/unr-assistant-skills` and add the marketplace.
 3. Select **UNR Assistant** (`unr-assistant`) and click **Add**.
 4. Open the plugin's **Connectors** tab and **Add** or **Connect** UNR Knowledge if prompted. In a Team or Enterprise organization, an owner may need to add the connector first.
 5. In a chat, use the **+ → Connectors** menu to enable it if necessary.
 
-Claude plugins require a paid Claude plan. On a Free plan, you can instead add `https://mcp.bricomgap.uni-freiburg.de/mcp` under **Customize → Connectors → Add custom connector**, and upload the [skill ZIP](dist/unr-assistant-skill.zip) under **Customize → Skills**. Those are two separate setup steps.
+Claude plugins require a paid Claude plan. On a Free plan, you can instead add `https://mcp.bricomgap.uni-freiburg.de/mcp` under **Customize → Connectors → Add custom connector**, and upload the [skill ZIP](dist/unr-assistant-skill.zip) under **Customize → Skills**. The skill ZIP has no plugin manifest or connector and cannot be uploaded under **Plugins**.
 
 ## Try it
 
