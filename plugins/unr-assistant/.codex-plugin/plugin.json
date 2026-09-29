@@ -16,8 +16,10 @@
     "longDescription": "Use UNR Knowledge to answer questions about UNR people, teaching, research, publications, projects, and scientific papers.",
     "developerName": "UNR Skills",
     "category": "Productivity",
-    "capabilities": ["Read"],
-    "defaultPrompt": "Wo lehrt Heiner Schanz?"
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": "Who at UNR works on environmental and natural resource governance?"
   },
   "mcpServers": "./.mcp.json"
 }
