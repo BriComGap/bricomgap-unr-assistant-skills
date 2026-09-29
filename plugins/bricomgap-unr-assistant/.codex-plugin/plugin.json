@@ -1,0 +1,23 @@
+{
+  "name": "bricomgap-unr-assistant",
+  "version": "0.1.0",
+  "description": "Answer questions about Freiburg's Faculty of Environment and Natural Resources with BriComGap sources.",
+  "author": {
+    "name": "BriComGap",
+    "url": "https://github.com/BriComGap"
+  },
+  "homepage": "https://github.com/BriComGap/bricomgap-unr-assistant-skills",
+  "repository": "https://github.com/BriComGap/bricomgap-unr-assistant-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "BriComGap UNR Assistant",
+    "shortDescription": "Sourced answers about Freiburg's UNR faculty",
+    "longDescription": "Use the BriComGap MCP server to answer questions about UNR people, teaching, research, publications, projects, and scientific papers.",
+    "developerName": "BriComGap",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "defaultPrompt": "Wo lehrt Heiner Schanz?"
+  },
+  "mcpServers": "./.mcp.json"
+}

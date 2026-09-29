@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "bricomgap": {
+      "type": "http",
+      "url": "https://mcp.bricomgap.uni-freiburg.de/mcp"
+    }
+  }
+}
