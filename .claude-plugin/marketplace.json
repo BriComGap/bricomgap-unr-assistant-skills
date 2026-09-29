@@ -1,14 +1,14 @@
 {
-  "name": "bricomgap-unr",
-  "description": "BriComGap plugins for source-grounded UNR questions",
+  "name": "unr-marketplace",
+  "description": "UNR Skills plugins for source-grounded UNR questions",
   "owner": {
-    "name": "BriComGap"
+    "name": "UNR Skills"
   },
   "plugins": [
     {
-      "name": "bricomgap-unr-assistant",
-      "source": "./plugins/bricomgap-unr-assistant",
-      "description": "Answer questions about Freiburg's UNR faculty with BriComGap sources"
+      "name": "unr-assistant",
+      "source": "./plugins/unr-assistant",
+      "description": "Answer questions about Freiburg's UNR faculty with UNR Knowledge sources"
     }
   ]
 }

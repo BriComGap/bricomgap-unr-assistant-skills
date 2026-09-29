@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "bricomgap": {
+    "unr-knowledge": {
       "type": "http",
       "url": "https://mcp.bricomgap.uni-freiburg.de/mcp"
     }

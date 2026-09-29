@@ -1,0 +1,23 @@
+{
+  "name": "unr-assistant",
+  "version": "0.1.0",
+  "description": "Answer questions about Freiburg's Faculty of Environment and Natural Resources with UNR Knowledge sources.",
+  "author": {
+    "name": "UNR Skills",
+    "url": "https://github.com/BriComGap"
+  },
+  "homepage": "https://github.com/BriComGap/unr-assistant-skills",
+  "repository": "https://github.com/BriComGap/unr-assistant-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "UNR Assistant",
+    "shortDescription": "Sourced answers about Freiburg's UNR faculty",
+    "longDescription": "Use UNR Knowledge to answer questions about UNR people, teaching, research, publications, projects, and scientific papers.",
+    "developerName": "UNR Skills",
+    "category": "Productivity",
+    "capabilities": ["Read"],
+    "defaultPrompt": "Wo lehrt Heiner Schanz?"
+  },
+  "mcpServers": "./.mcp.json"
+}
