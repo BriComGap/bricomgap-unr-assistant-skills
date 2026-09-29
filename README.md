@@ -30,7 +30,7 @@ Claude plugins require a paid Claude plan. On a Free plan, you can instead add `
 
 ## Try it
 
-Ask a question such as **“Wo lehrt Heiner Schanz?”** or **“What methods do the available UNR papers use to study forest biodiversity?”**. The assistant should call the UNR Knowledge tools and cite returned sources. You can invoke the skill explicitly with `$unr-assistant` in Codex or `/unr-assistant:unr-assistant` in Claude.
+Ask a question such as **“Who at UNR works on environmental and natural resource governance?”** or **“What methods do the available UNR papers use to study forest biodiversity?”**. The assistant should call the UNR Knowledge tools and cite returned sources. You can invoke the skill explicitly with `$unr-assistant` in Codex or `/unr-assistant:unr-assistant` in Claude.
 
 If the tools are unavailable, check that the plugin is enabled, the connector is connected, and the chat has access to it. Installing only the skill text does not connect the server. GitHub installation for other users requires a public repository or authorized access to a private one.
 
