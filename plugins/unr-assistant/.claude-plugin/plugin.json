@@ -1,0 +1,12 @@
+{
+  "name": "unr-assistant",
+  "version": "0.1.0",
+  "description": "Answer questions about Freiburg's Faculty of Environment and Natural Resources with UNR Knowledge.",
+  "author": {
+    "name": "UNR Skills",
+    "url": "https://github.com/BriComGap"
+  },
+  "homepage": "https://github.com/BriComGap/unr-assistant-skills",
+  "repository": "https://github.com/BriComGap/unr-assistant-skills",
+  "license": "MIT"
+}
